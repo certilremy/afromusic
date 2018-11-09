@@ -3,8 +3,6 @@
 
 Afro music is a CLI app that allows you to list a list of african music from achivmizik.com. It's also available as a ruby gem. Feel free to contribute and use it how ever you want.
 
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -23,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ To use this gem firt runn it and it wil guide you on the rest ...
 
 ## Development
 
