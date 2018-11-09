@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "afromusic"
   spec.version       = Afromusic::VERSION
   spec.authors       = ["certilremy"]
-  spec.email         = ["certilremy@gmail.com"]
+  spec.email         = ["certil@noukod.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{this gem allow you to display new and old music afro an haitian music.}
+  spec.description   = %q{this gem allow you to display new and old music afro an haitian music. you can shoose displaye music any form you wan new , old even list all music.}
+  spec.homepage      = "https://github.com/certilremy/afromusic"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+    spec.metadata["source_code_uri"] = "https://github.com/certilremy/afromusic"
+    spec.metadata["changelog_uri"] = "https://github.com/certilremy/afromusic/commit/1920a20f8fb9f7d9e9b22f5b3081e7630fc1b6d6"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
