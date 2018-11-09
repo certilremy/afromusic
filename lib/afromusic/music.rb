@@ -9,8 +9,8 @@ class Afromusic::Music
 
 def self.newMusic
     doc = Nokogiri::HTML(open("https://achivmizik.net/"))
-    music = self.new
-    music = doc.css(".cat-box.scroll-box.tie-cat-3").map do |music|
+    song = self.new
+    song = doc.css(".cat-box.scroll-box.tie-cat-3").map do |music|
         # puts music
             music.css(".scroll-item").each do |post|  
         puts "Music : #{post.css(".post-box-title a").text}"
